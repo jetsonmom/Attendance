@@ -1,4 +1,12 @@
 # Attendance
+#Face based attendance system using Nvidia Jetson nano 4GB
+학교에서 제슨나노 출석부 만들어서 확인 해보고 싶었다.
+자료를 못찾았는데 한글로 찾는게 아니라 영어로 찾았어야했던거다.
+김종현 교수님이 몇개의 링크를 주셨다.
+그런데 OPENCV버전 문제로 할 줄 몰라서 제타님께 도움을 청했다. 
+그 후 성공을 했었고 다시 하는데 안되서 2일을 헤메다 구글 검색하고 드디어 해결해서 글을 남긴다. 내 힘으로 수정해서 하니 기뻣다.
+
+
 이미지 JetsonNanoUb20 다운로드 후 zip 풀고 balenaetcher로 구워줌JetsonNanoUb20
 
 git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
