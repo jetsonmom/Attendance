@@ -16,7 +16,7 @@
 
 # 2. pip
    
-     $ jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX$ pip show dlib  
+     $  pip show dlib  
 
   결과 WARNING: Package(s) not found: dlib
 
