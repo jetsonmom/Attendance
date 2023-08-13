@@ -12,15 +12,15 @@
 
 # 1. Git clone and change directory
   
-   $ git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
+   $ 'git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git'
 
 # 2. pip
    
-   $ jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX$ pip show dlib  
+   $ jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX$ 'pip show dlib'  
 
      결과 WARNING: Package(s) not found: dlib
 
-   $ pip install dlib 
+   $ 'pip install dlib '
 
      결과
   
@@ -28,7 +28,7 @@
   
      Building wheel for dlib (PEP 517) ... -^canceled
   
-   $ pip install dlib -vvv 
+   $ 'pip install dlib -vvv' 
 
      결과 설치 성공 
 
@@ -38,13 +38,13 @@
   
 # 3. Install prerequisite library using requirement file
    
-   $ pip3 install -r requirement.txt
+   $ 'pip3 install -r requirement.txt'
    
      결과 에러
    
-      'The conflict is caused by:
+      The conflict is caused by:
 	The user requested numpy==1.17.4
-	opencv-python 4.5.2.54 depends on numpy>=1.19.3'
+	opencv-python 4.5.2.54 depends on numpy>=1.19.3
      requirment.txt 파일에서  numpy>=1.19.3로 수정하니 또 에러.  
      numpy>=1.18.5로 수정하니 넘어감
      또 다시 하니 에러 그래서 numpy>=1.19.2로 하니 넘어감
@@ -53,14 +53,14 @@
 
   # 4. Take a picture of your input and save it to the “Attendance_data” folder
      
-      $ python3 initial_data_capture.py
+      $ 'python3 initial_data_capture.py'
       
        Please Enter your name:jetsonmom
      
      
 # 5. Main script (Attendance system):
    
-    $ python3 main.py
+    $ 'python3 main.py'
    
        23_08_13||15:22
    
