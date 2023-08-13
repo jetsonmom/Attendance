@@ -18,7 +18,7 @@
    
      $ jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX$ pip show dlib  
 
-   결과 WARNING: Package(s) not found: dlib
+  결과 WARNING: Package(s) not found: dlib
 
      $ pip install dlib
 
@@ -53,20 +53,20 @@ numpy>=1.18.5로 수정하니 넘어감
 
   # 4. Take a picture of your input and save it to the “Attendance_data” folder
      
-      $ 'python3 initial_data_capture.py'
+      $ python3 initial_data_capture.py
       
-       Please Enter your name:jetsonmom
+ Please Enter your name:jetsonmom
      
      
 # 5. Main script (Attendance system):
    
-    $ 'python3 main.py'
+    $ python3 main.py
    
-       23_08_13||15:22
+  23_08_13||15:22
+  
+ ['venkatesan.png', 'j.png', 'vk.png']
    
-       ['venkatesan.png', 'j.png', 'vk.png']
-   
-       ['venkatesan', 'j', 'vk']
+ ['venkatesan', 'j', 'vk']
 
 
 
