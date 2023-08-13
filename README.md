@@ -31,13 +31,14 @@ $ pip install dlib -vvv
 	opencv-python 4.5.2.54 depends on numpy>=1.19.3'
      requirment.txt 파일에서  numpy>=1.19.3로 수정하니 또 에러.  
      numpy>=1.18.5로 수정하니 넘어감
-     또 다시 하니 에러 그래서 numpy>=1.19.2로 하니 넘어감![image](https://github.com/jetsonmom/Attendance/assets/92077615/bedc10fa-087a-4402-9f6e-542bae62212d)
+     또 다시 하니 에러 그래서 numpy>=1.19.2로 하니 넘어감
 
   # 경로 조심 jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX
 
   3. Take a picture of your input and save it to the “Attendance_data” folder
      $ python3 initial_data_capture.py  
        Please Enter your name:jetsonmom
+     
      
 5. Main script (Attendance system):
    $ python3 main.py
