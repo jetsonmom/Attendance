@@ -12,7 +12,7 @@
 
 # 1. Git clone and change directory
   
-   $ git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
+     $ git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
 
 # 2. pip
    
@@ -28,7 +28,7 @@
   
    Building wheel for dlib (PEP 517) ... -^canceled
   
-    $ 'pip install dlib -vvv' 
+    $ pip install dlib -vvv 
 
   결과 설치 성공 
 
