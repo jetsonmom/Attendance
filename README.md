@@ -10,33 +10,33 @@
 #  이미지 굽기
 이미지 JetsonNanoUb20 다운로드 후 zip 풀고 balenaetcher로 구워줌JetsonNanoUb20
 
-1. Git clone and change directory
+# 1. Git clone and change directory
   
    $ git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
 
-2. pip
+# 2. pip
    
-$ jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX$ pip show dlib  
+   $ jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX$ pip show dlib  
 
-   결과 WARNING: Package(s) not found: dlib
+     결과 WARNING: Package(s) not found: dlib
 
-$ pip install dlib 
+   $ pip install dlib 
 
-  결과
+     결과
   
-  Building wheels for collected packages: dlib
+     Building wheels for collected packages: dlib
   
-  Building wheel for dlib (PEP 517) ... -^canceled
+     Building wheel for dlib (PEP 517) ... -^canceled
   
-$ pip install dlib -vvv 
+   $ pip install dlib -vvv 
 
-결과 설치 성공 
+     결과 설치 성공 
 
-[ 98%] Building CXX object CMakeFiles/_dlib_pybind11.dir/src/gui.cpp.o
+     [ 98%] Building CXX object CMakeFiles/_dlib_pybind11.dir/src/gui.cpp.o
 
-  [100%] Linking CXX shared module /tmp/pip-install-wgljy5hq/dlib/build/lib.linux-aarch64-3.8/_dlib_pybind11.cpython-38-aarch64-linux-gnu.so
+      [100%] Linking CXX shared module /tmp/pip-install-wgljy5hq/dlib/build/lib.linux-aarch64-3.8/_dlib_pybind11.cpython-38-aarch64-linux-gnu.so
   
-2. Install prerequisite library using requirement file
+# 3. Install prerequisite library using requirement file
    
    $ pip3 install -r requirement.txt
    
@@ -51,16 +51,16 @@ $ pip install dlib -vvv
 
   # 경로 조심 jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX
 
-  3. Take a picture of your input and save it to the “Attendance_data” folder
+  # 4. Take a picture of your input and save it to the “Attendance_data” folder
      
-     $ python3 initial_data_capture.py
-     
+      $ python3 initial_data_capture.py
+      
        Please Enter your name:jetsonmom
      
      
-5. Main script (Attendance system):
+# 5. Main script (Attendance system):
    
-   $ python3 main.py
+    $ python3 main.py
    
        23_08_13||15:22
    
