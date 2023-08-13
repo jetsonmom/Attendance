@@ -37,7 +37,7 @@ $ pip install dlib -vvv
 
   3. Take a picture of your input and save it to the “Attendance_data” folder
      $ python3 initial_data_capture.py  
-       Please Enter your name:j
+       Please Enter your name:jetsonmom
      
 5. Main script (Attendance system):
    $ python3 main.py
