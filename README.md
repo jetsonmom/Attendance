@@ -58,7 +58,8 @@ numpy>=1.18.5로 수정하니 넘어감
      
      
 # 5. Main script (Attendance system):
-   
+# 코드 수정 38번 
+ now = datetime.now(pytz.timezone('Asia/Seoul'))
     $ python3 main.py
    
   23_08_13||15:22
