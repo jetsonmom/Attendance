@@ -59,7 +59,14 @@ numpy>=1.18.5로 수정하니 넘어감
      
 # 5. Main script (Attendance system):
 # 코드 수정 38번 
+
  now = datetime.now(pytz.timezone('Asia/Seoul'))
+
+ #main.py 를  실행하기 전에 다음 링크를 복제한 후 main.py만 복사해서 사용한다.
+ 
+ https://github.com/jkf87/AttendanceSystem-Jetsonnano4G_fixed
+
+
     $ python3 main.py
    
   23_08_13||15:22
