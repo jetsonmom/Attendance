@@ -3,7 +3,7 @@
    학교에서 제슨나노 출석부 만들어서 확인 해보고 싶었다.
    자료를 못찾았는데 한글로 찾는게 아니라 영어로 찾았어야했던거다.    김종현 교수님이 몇개의 링크를 주셨다.
    그런데 OPENCV버전 문제로 에러가 났는데 해결이 안되어 제타님께 도움을 청했다. 
-   그 후 성공을 했었고 다시 하는데 안되서 2일을 헤메다 구글 검색하고 드디어 해결해서 글을 남긴다. 버전의 문제들...
+   그 후 잠시 성공을 했었고, 다시 하는데 안되서 2일을 헤메다 구글 검색하고 드디어 해결해서 글을 남긴다. 버전의 문제들...
    내 힘으로 수정해서 해결하니 기뻣다.
 
 #  1. 이미지 굽기
@@ -11,7 +11,8 @@
 
 # 2. Git clone and change directory
   
-     $  git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
+     git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
+     git clone https://github.com/jkf87/AttendanceSystem-Jetsonnano4G_fixed
 
 # 3. pip
    
