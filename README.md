@@ -11,7 +11,7 @@
 
 # 1. Git clone and change directory
   
-     $ git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
+     $
 
 # 2. pip
    
