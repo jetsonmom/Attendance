@@ -6,14 +6,14 @@
    그 후 성공을 했었고 다시 하는데 안되서 2일을 헤메다 구글 검색하고 드디어 해결해서 글을 남긴다. 버전의 문제들...
    내 힘으로 수정해서 해결하니 기뻣다.
 
-#  이미지 굽기
+#  1. 이미지 굽기
 이미지 JetsonNanoUb20 다운로드 후 zip 풀고 balenaetcher로 구워줌JetsonNanoUb20
 
-# 1. Git clone and change directory
+# 2. Git clone and change directory
   
-     $
+     $  git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
 
-# 2. pip
+# 3. pip
    
      $  pip show dlib  
 
@@ -35,7 +35,7 @@
 
   [100%] Linking CXX shared module /tmp/pip-install-wgljy5hq/dlib/build/lib.linux-aarch64-3.8/_dlib_pybind11.cpython-38-aarch64-linux-gnu.so
   
-# 3. Install prerequisite library using requirement file
+# 4. Install prerequisite library using requirement file
    
      $ pip3 install -r requirement.txt
    
@@ -50,14 +50,14 @@ numpy>=1.18.5로 수정하니 넘어감
 
   # 경로 조심 jetson@nano:~/Downloads/AttendanceSystem-JetsonAGX
 
-  # 4. Take a picture of your input and save it to the “Attendance_data” folder
+  # 5. Take a picture of your input and save it to the “Attendance_data” folder
      
       $ python3 initial_data_capture.py
       
  Please Enter your name:jetsonmom
      
      
-# 5. Main script (Attendance system):
+# 6. Main script (Attendance system):
 # 코드 수정 38번 
 
  now = datetime.now(pytz.timezone('Asia/Seoul'))
