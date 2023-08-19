@@ -12,6 +12,7 @@
 # 2. Git clone and change directory
   
      git clone https://github.com/VK-Ant/AttendanceSystem-JetsonAGX.git
+     
      git clone https://github.com/jkf87/AttendanceSystem-Jetsonnano4G_fixed
 
 # 3. pip
