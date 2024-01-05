@@ -7,7 +7,8 @@
    내 힘으로 수정해서 해결하니 기뻣다.
 
 #  1. 이미지 굽기
-이미지 JetsonNanoUb20 다운로드 후 zip 풀고 balenaetcher로 구워줌JetsonNanoUb20
+이미지 JetsonNanoUb20 다운로드 후 zip 풀고 balenaetcher로 구워줌
+JetsonNanoUb20
 https://drive.google.com/file/d/1Jhr4SIeKLocHbJyeximI-j3mksZNgxN3/view?usp=drive_link
 
 # 2. Git clone and change directory
